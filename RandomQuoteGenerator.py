@@ -9,7 +9,7 @@ class RandomQuoteGenerator:
     """
 
     def __init__(self):
-        self.main_screen()
+        choice = self.main_screen()
         while choice == 1:
             self.generate_quote()
             choice = self.main_screen()
