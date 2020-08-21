@@ -5,26 +5,37 @@ from random import randrange
 
 class RandomQuoteGenerator:
     """
-        Generate random quotes from http://quotes.toscrape.com/ by web scraping
+        Description: Generate random quotes from http://quotes.toscrape.com/ by web scraping
     """
 
     def __init__(self):
-        choice = self.main_screen()
+        self.main_screen()
         while choice == 1:
             self.generate_quote()
             choice = self.main_screen()
+
+    '''
+    description: Prints the main screen options
+    param: none
+    return: main menu option number
+    '''
 
     def main_screen(self):
         print('Welcome to Random Quote Generator!\n')
         print('1. Generate a random quote')
         print('2. Exit')
         print()
-        value = int(input("Please enter the number of choice: "))
+        value = int(input("Please enter the number of the option: "))
         while value not in [1, 2]:
-            value = int(
-                input("Invalid selection, please enter the number of choice: "))
+            value = int(input("Invalid number, please enter the number of option: "))
         print()
         return value
+
+    '''
+    description: Prints a random quote from http://quotes.toscrape.com/
+    param: none
+    return: none
+    '''
 
     def generate_quote(self):
 
