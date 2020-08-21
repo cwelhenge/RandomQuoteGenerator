@@ -2,6 +2,10 @@
 
 Generates random quotes using Python and BeautifulSoup to scrape from http://quotes.toscrape.com/
 
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install beautifulsoup4 and lxml.
+
 ## Screenshot
 
 ![Screenshot of the app](/screenshot1.PNG)
