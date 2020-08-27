@@ -1,6 +1,7 @@
 # RandomQuoteGenerator
 
-Generates random quotes using Python and BeautifulSoup to scrape from http://quotes.toscrape.com/
+Generates random quotes using Python and BeautifulSoup to scrape from http://quotes.toscrape.com/.
+
 Project is completed for demonstration/learning purposes only.
 
 ## Installation
